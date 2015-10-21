@@ -97,7 +97,7 @@ var loop = function() {
 
   page.paperSize = line.paperSize ||
     {
-      format: line.paperFormat || 'Legal',
+      format: line.paperFormat || 'Letter',
       orientation: line.orientation || 'portrait',
       margin: line.margin || '5cm'
     };
