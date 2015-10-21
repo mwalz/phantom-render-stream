@@ -97,9 +97,9 @@ var loop = function() {
 
   page.paperSize = line.paperSize ||
     {
-      format: line.paperFormat || 'A4',
+      format: line.paperFormat || 'Letter',
       orientation: line.orientation || 'portrait',
-      margin: line.margin || '0cm'
+      margin: line.margin || '5cm'
     };
 
   if (line.userAgent) page.settings.userAgent = line.userAgent;
